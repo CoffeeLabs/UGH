@@ -1,0 +1,230 @@
+<!--//////////// MAIN VIEW ////////////-->
+<!--//////////// Employees, Investors, Main Menu with bottom bar ////////////-->
+    <section id="main-view" data-transition="slide">
+      
+         <header  class="">            
+            <div data-icon="home" class="statusbar-item">       99</div>
+            <div data-icon="users" class="statusbar-item">       58</div>
+            <div data-icon="upload" class="statusbar-item">       43</div>
+            <div data-icon="map" class="statusbar-item">       33</div>
+            <div data-icon="cloud" class="statusbar-item">       34</div>
+            <div data-icon="menu" class="statusbar-item">       51,234</div>
+                                    
+            </div>
+        </header>
+   
+        
+<!--------------- Grid of Employees --------------->
+        <article id="employees" class="employee_grid">
+                                    
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(0,0);" id="emp00"><script type="text/javascript">
+                <!--
+                if(employeepic[0][0]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[0][0] + ".svg' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp00").href="#employee_hire";
+                  document.getElementById("emp00").onclick="";
+                }
+                //--></script></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(1,0);" id="emp10"><script type="text/javascript">
+                <!--
+                if(employeepic[1][0]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[1][0] + ".svg' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp10").href="#employee_hire";
+                  document.getElementById("emp10").onclick="";
+                }
+                //--></script></a>
+              </div>
+                            <div class="three rows">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(2,0);" id="emp20"><script type="text/javascript">
+                <!--
+                if(employeepic[2][0]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[2][0] + ".svg' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp20").href="#employee_hire";
+                  document.getElementById("emp20").onclick="";
+                }
+
+                //--></script></a>
+              </div>
+            </div>
+          
+
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(0,1);" id="emp01"><script type="text/javascript">
+                <!--
+                if(employeepic[0][1]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[0][1] + ".svg' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp01").href="#employee_hire";
+                  document.getElementById("emp01").onclick="";
+                }
+                //--></script></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(1,1);" id="emp11"><script type="text/javascript">
+                <!--
+                if(employeepic[1][1]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[1][1] + ".svg' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp11").href="#employee_hire";
+                  document.getElementById("emp11").onclick="";
+                }
+                //--></script></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(2,1);" id="emp21"><script type="text/javascript">
+                <!--
+                if(employeepic[2][1]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[2][1] + ".svg' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp21").href="#employee_hire";
+                  document.getElementById("emp21").onclick="";
+                }
+
+                //--></script></a>
+              </div>
+            </div>
+            
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(0,2);" id="emp02"><script type="text/javascript">
+                <!--
+                if(employeepic[0][2]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[0][2] + ".svg' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp02").href="#employee_hire";
+                  document.getElementById("emp02").onclick="";
+                }
+
+                //--></script></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(1,2);" id="emp12"><script type="text/javascript">
+                <!--
+                if(employeepic[1][2]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[1][2] + ".svg' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp12").href="#employee_hire";
+                  document.getElementById("emp12").onclick="";
+                }
+
+                //--></script></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(2,2);" id="emp22"><script type="text/javascript">
+                <!--
+                if(employeepic[2][2]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[2][2] + ".svg' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp22").href="#employee_hire";
+                  document.getElementById("emp22").onclick="";
+                }
+
+                //--></script></a>
+              </div>
+            </div>
+
+            <div class="one column"></div>          
+                                                
+        </article>
+<!--------------- END --------------->        
+<!--------------- Grid of Employees --------------->
+        
+        
+                
+<!--------------- Grid of Investors --------------->
+        <article id="investors" class="employee_grid">
+                                    
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
+              </div>
+            	<div class="three rows">
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
+              </div>
+            </div>
+          
+
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
+              </div>
+            </div>
+            
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
+              </div>
+            </div>
+
+            <div class="one column"></div>          
+                                                
+        </article>
+<!--------------- END --------------->        
+<!--------------- Grid of Investors --------------->
+        
+        
+<!--------------- Menu with bottom bar --------------->        
+        <article id="menu-ingame" class="list">      	
+        	<form class="margined">
+        	  <img src="assets/gamelogo.svg" class="gamelogo">  
+        	  <div class="menu-elements">
+              <!--      	  
+              <a href="#employees" data-router="article" class="button">Resume</a>           
+              -->
+            	<a href="#login" class="button">Log Out</a>
+            	<a href="" class="red button">Sound Off</a>            	
+            </div>
+		    </form>
+        </article>
+        
+<!--------------- END --------------->                
+<!--------------- Menu with bottom bar --------------->      
+        
+        
+                
+	    <footer>
+	      <nav>
+	          <a href="#employees" data-router="article" class="current" data-icon="user"></a>
+            <a href="#investors" data-router="article" data-icon="inbox"></a>
+            <a href="#menu-ingame" data-router="article" data-icon="settings"></a>
+        </nav>
+	    </footer>
+
+
+    </section>
+<!-- /////////// END /////////// -->
+<!--//////////// MAIN VIEW ////////////-->
+
+    

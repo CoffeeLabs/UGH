@@ -1,0 +1,37 @@
+
+<!--//////////// EMPLOYEE PROFILE ////////////-->    
+    
+    <section id="employee_profile" data-transition="slide">
+		<header data-title="John Doe">
+		    <nav class="left box">
+		        <a href="#back" data-router="section" data-icon="left"></a>
+		    </nav>
+		    <nav class="right box">
+		        <a href="#back" data-router="section" data-icon="close" data-label="Fire"></a>
+		    </nav>
+		</header>
+		
+		
+		<article class="scroll">
+		    <form class="margined">
+		        
+		        <script type="text/javascript">document.write("<img src='/CoffeeInc/assets/emp_" + empPicId + ".svg' id='emp_profile_pic' >");</script>	
+		        <!--
+		        ><img src="assets/ep2_big.svg" id="employee_pic">
+		        -->		        
+		        		        
+		        <label>Skill:   <script type="text/javascript">document.write(empSkill);</script>	</label>
+		        <script type="text/javascript">document.write('<div id="progress-normal" data-progress="'+empSkill+'%"></div>');</script>
+		        
+		        <label>Satisfaction:   <script type="text/javascript">document.write(empSat);</script></label>
+		        <script type="text/javascript">document.write('<div id="progress-normal" data-progress="'+empSat+'%"></div>');</script>
+
+		        <label>Salary:   <script type="text/javascript">document.write(empSalary);</script></label>
+		        <input type="range" data-progress="10%" placeholder="type your name" />
+
+		    </form>
+
+		</article>
+	</section>
+<!-- /////////// END /////////// -->
+<!--//////////// EMPLOYEE PROFILE ////////////-->
