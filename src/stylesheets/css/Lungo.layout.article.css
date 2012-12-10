@@ -1,0 +1,48 @@
+/**
+ * Stylesheet
+ *
+ * @namespace Lungo.Layout
+ * @class Article
+ *
+ * @author Javier Jimenez Villar <javi@tapquo.com> || @soyjavi
+ */
+article {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: inherit;
+  height: auto;
+  display: none;
+  visibility: hidden;
+  z-index: 0;
+}
+article.current,
+article:first-child {
+  visibility: visible;
+  display: block;
+  z-index: 1;
+}
+article.pull {
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 300ms;
+  -moz-transition-duration: 300ms;
+  transition-duration: 300ms;
+}
+header:not(.extended) ~ article {
+  top: 44px;
+}
+header.extended ~ article {
+  top: 74px;
+}
+footer ~ article {
+  bottom: 44px;
+}
+@media handheld, only screen and (min-width: 768px) {
+  article.aside {
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+  }
+}
